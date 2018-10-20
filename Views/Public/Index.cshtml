@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ASP.Net Core</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css"/>
+</head>
+<body>
+
+    <div id="main">
+        <h1>ASP.Net Core</h1>
+        <ul>
+            @foreach(string feature in ViewData["features"] as List<string>) {
+                <li>@feature</li>
+            }
+        </ul>
+        <br/>
+        <a href="/api" target="_blank" style="color:#fff;">JSON API</a>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,9 @@
+body {
+    background: #7014e8;
+}
+#main {
+    width:50%;
+    margin:150px auto 0;
+    color:#fff;
+    font-size: 20px;
+}
